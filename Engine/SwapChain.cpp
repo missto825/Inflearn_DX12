@@ -6,6 +6,7 @@ void SwapChain::Init(const WindowInfo& info, ComPtr<ID3D12Device> device, ComPtr
 {
 	CreateSwapChain(info, dxgi, cmdQueue);
 	CreateRTV(device);
+	//  전저에요;
 }
 
 void SwapChain::Present()
